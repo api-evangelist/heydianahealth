@@ -1,8 +1,18 @@
 aid: heydianahealth
-name: Heydianahealth
-description: 'Heydianahealth is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+name: Diana Health
+description: >-
+  Diana Health (heydianahealth.com) is a women's healthcare provider offering
+  personalized in-person and virtual care across the reproductive and primary
+  health lifespan: maternity and prenatal care, labor and delivery, postpartum,
+  gynecology, well-woman visits, menopause management, family planning and
+  contraception, mental health, and wellness coaching, plus treatment for
+  conditions such as endometriosis, PCOS, UTIs, and STIs. The company operates
+  collaborative care-team clinics across Tennessee, Florida, and Texas, accepts
+  most major insurance plans including Medicaid, and emphasizes longer
+  appointments and whole-person (mental, physical, social) care. Diana Health is
+  a portfolio company of Norwest Venture Partners. It publishes a consumer
+  marketing and appointment-booking website but no public developer API; this
+  profile is enriched with identity and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/heydianahealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://heydianahealth.com/wp-content/uploads/2024/08/dianahealth-logo-icon.svg
 tags:
 - Company
-- Unknown
+- Healthcare
+- Women's Health
+- Digital Health
+- Maternity
+- Telehealth
+- Health Services
+- Norwest Venture Partners
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,16 @@ maintainers:
 common:
 - type: Website
   url: https://heydianahealth.com
+- type: TermsOfService
+  url: https://heydianahealth.com/terms/
+- type: PrivacyPolicy
+  url: https://heydianahealth.com/privacy-policy/
+- type: Support
+  url: https://heydianahealth.com/contact/
+- type: DomainSecurity
+  url: security/heydianahealth-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
